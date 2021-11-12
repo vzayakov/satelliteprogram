@@ -93,7 +93,7 @@ def calculate():
 
 #	Print out the distance and time of the closest pass.
 	print("\n", cpt.utc_datetime())
-	print("\n", cpd)
+	print("\n", closepassdistance[cpd], "kilometers")
 
 #	Graph out a distance vs. time graph of the closest pass
 	tgraph = ts.tt_jd(np.arange(cpt.tt - 0.001, cpt.tt + 0.001, 0.00001))
